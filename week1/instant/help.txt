@@ -1,0 +1,10 @@
+   pip install -r requirements.txt
+   node --version
+   npm --version
+   npm cache clean --force
+   npm install -g vercel # run this ,if error run below
+        npm config set registry http://registry.npmjs.org/
+        npm install -g vercel --fetch-retries=5 --fetch-retry-mintimeout=20000
+        npm install -g vercel
+   vercel login
+   vercel .
